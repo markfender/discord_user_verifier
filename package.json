@@ -1,0 +1,28 @@
+{
+  "name": "hackaton-project",
+  "version": "1.0.0",
+  "description": "discord bot with integration to chainlink nodes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bot/bot.js",
+    "dev": "nodemon ./bot/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eienokodoku/hackaton-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eienokodoku/hackaton-project/issues"
+  },
+  "homepage": "https://github.com/Eienokodoku/hackaton-project#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.5",
+    "nodemon": "^2.0.16"
+  }
+}
